@@ -1,4 +1,4 @@
-**简体中文**  |  English  
+**简体中文**  |  [English](https://github.com/xtyzhen/COC_helper_xtyzhen/blob/main/README(English).md)  
 ***
 # 介绍  
 COC_helper_xtyzhen是一款可以运行于Windows模拟器下部落冲突的自动捐兵辅助程序。使用python编写，基于pyautogui图像识别。  
