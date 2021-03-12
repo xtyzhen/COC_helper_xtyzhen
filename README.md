@@ -19,7 +19,7 @@ COC_helper_xtyzhen是一款可以运行于Windows模拟器下部落冲突的自�
 支持单台电脑多开模拟器，自动均衡捐兵。  
 ***
 # 使用方法  
-下载并安装anaconda（[mirror in China](https://mirrors.bfsu.edu.cn/anaconda/archive/)）  
+下载并安装Anaconda3-2020.07-Windows-x86_64.exe（[mirror in China](https://mirrors.bfsu.edu.cn/anaconda/archive/Anaconda3-2020.07-Windows-x86_64.exe)）  
 ~~~
 pip install opencv-python pyautogui  
 git clone https://github.com/xtyzhen/COC_helper_xtyzhen.git  
