@@ -20,6 +20,7 @@ COC_helper_xtyzhen是一款可以运行于Windows模拟器下部落冲突的自�
 ***
 # 使用方法  
 下载并安装Anaconda3-2020.07-Windows-x86_64.exe（[mirror in China](https://mirrors.bfsu.edu.cn/anaconda/archive/Anaconda3-2020.07-Windows-x86_64.exe)）  
+Tips:如果需要修改识别兵种和顺序，需要在locate.py第235行修改编号。编号释义在第18行中给出。
 ~~~
 pip install opencv-python pyautogui  
 git clone https://github.com/xtyzhen/COC_helper_xtyzhen.git  
