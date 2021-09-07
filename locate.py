@@ -91,15 +91,15 @@ def autotrain(troops):
         photo='./train_troops/'+str(t)+'.png'
         if pyautogui.locateOnScreen(photo, confidence=0.8, grayscale=True)==None and type(t)==int:
             if t>=14:
-                slip_position=pyautogui.center(pyautogui.locateOnScreen('./train_troops/1.png', confidence=0.8, grayscale=True))
+                slip_position=pyautogui.center(pyautogui.locateOnScreen('./train_troops/14.png', confidence=0.8, grayscale=True))
                 pyautogui.mouseDown(slip_position.x+random.randint(10,100),slip_position.y+random.randint(-10,95))
-                pyautogui.dragRel(-153+random.randint(0,8), 10+random.randint(-8,8), button='left', duration=0.20)
+                pyautogui.dragRel(-200+random.randint(0,8), 10+random.randint(-8,8), button='left', duration=0.20)
                 #pyautogui.mouseUp()
                 time.sleep(1)
             else:
                 slip_position=pyautogui.center(pyautogui.locateOnScreen('./train_troops/14.png', confidence=0.8, grayscale=True))
                 pyautogui.mouseDown(slip_position.x+random.randint(10,100),slip_position.y+random.randint(-10,95))
-                pyautogui.dragRel(188+random.randint(0,8), 10+random.randint(-8,8), button='left', duration=0.20)
+                pyautogui.dragRel(200+random.randint(0,8), 10+random.randint(-8,8), button='left', duration=0.20)
                 #pyautogui.mouseUp()
                 time.sleep(1)
         Part=pyautogui.locateOnScreen(photo, confidence=0.8, grayscale=True)
